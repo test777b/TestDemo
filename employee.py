@@ -1,7 +1,7 @@
 # employee.py
 
 from datetime import date
-
+y_added_line 1
 class Employee:
     def __init__(self, name, birth_date):
         self.name = name
@@ -14,7 +14,7 @@ x_added_line 3
     @name.setter
     def name(self, value):
         self._name = value.upper()
-
+y_added_line 2
     @property
     def birth_date(self):
         return self._birth_date
@@ -38,6 +38,6 @@ x_added_line 1
 
 x_added_line 2
 
+y_added_line 3
 
-
-
+y_added_line 4
