@@ -6,7 +6,7 @@ class Employee:
     def __init__(self, name, birth_date):
         self.name = name
         self.birth_date = birth_date
-
+x_added_line 3
     @property
     def name(self):
         return self._name
@@ -33,6 +33,10 @@ print("----------------")
 print(a.name)
 print(a2.name)
 print("----------------")
+
+x_added_line 1
+
+x_added_line 2
 
 
 
