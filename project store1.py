@@ -27,6 +27,9 @@ class StoreInventoryApp:
         
         self.view_button = tk.Button(root, text="View Data", command=self.view_data)
         self.view_button.pack()
+        
+        f1_change_1 3
+        f1_change_1 4
 
     def enter_inventory(self):
         product = self.product_entry.get()
@@ -51,6 +54,8 @@ class StoreInventoryApp:
         text = tk.Text(data_viewer)
         text.pack()
         text.insert(  tk.END, str(self.data)  )   
+f1_change_1 1
+f1_change_1 2
 
 if __name__ == "__main__":
     root = tk.Tk()
